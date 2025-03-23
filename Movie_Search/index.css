@@ -1,0 +1,91 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #1c1c1c, #333);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+input {
+    width: 350px;
+    padding: 14px;
+    font-size: 18px;
+    border: 2px solid #ff9800;
+    border-radius: 8px;
+    background: #222;
+    color: white;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+
+input:focus {
+    border-color: #e68900;
+    box-shadow: 0 0 15px rgba(255, 152, 0, 0.7);
+    transform: scale(1.05);
+}
+
+button {
+    background: linear-gradient(135deg, #ff9800, #e68900);
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(255, 152, 0, 0.5);
+}
+
+button:hover {
+    background: linear-gradient(135deg, #e68900, #c87000);
+    transform: scale(1.08);
+    box-shadow: 0 6px 15px rgba(255, 152, 0, 0.7);
+}
+
+#title {
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 25px;
+    text-shadow: 3px 3px 12px rgba(255, 152, 0, 0.6);
+    letter-spacing: 1px;
+}
+
+#plot {
+    font-size: 20px;
+    margin: 25px auto;
+    width: 70%;
+    line-height: 1.8;
+    font-weight: 300;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 18px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
+}
+
+#poster {
+    margin-top: 20px;
+    max-width: 340px;
+    border-radius: 15px;
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.5);
+    transition: transform 0.3s ease-in-out;
+}
+
+#poster:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.6);
+}
+
+
+
+#writer, #director,#actors, #awards, #boxOffice, #country, #dvd, #genre, #language {
+        display: block;
+        margin-top: 10px;
+        font-size: 18px;
+        font-style: italic;
+        color: #ff9800;
+        font-weight: bold;
+    
+}
