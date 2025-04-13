@@ -26,7 +26,9 @@ Example Searches
 Here are some movies you can try searching for:
 
 Inception
+
 Avengers
+
 Titanic
 
 API Used
