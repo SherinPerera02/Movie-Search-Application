@@ -1,4 +1,5 @@
 Movie Info Search App
+
 A simple web application that allows users to search for movie details using the OMDb API. Built using vanilla JavaScript, HTML, and CSS, this project demonstrates how to fetch and display dynamic content from an external API.
 
 Features
