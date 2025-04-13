@@ -1,15 +1,37 @@
-Movie Info Finder 🎬
+Movie Info Search App
+A simple web application that allows users to search for movie details using the OMDb API. Built using vanilla JavaScript, HTML, and CSS, this project demonstrates how to fetch and display dynamic content from an external API.
 
-A sleek and responsive web application that fetches movie details using the OMDb API. Simply enter a movie title and get information such as the plot, director, writer, actors, awards, box office earnings, country, genre and language—all displayed with a modern and attractive UI.
+Features
+Users can search for any movie by title. When a movie is found, the app displays detailed information such as the poster, plot summary, director, writer, actors, awards, box office collection, and more.
 
-✨ Features:
+The app is also styled with a clean and modern UI using custom CSS for better visual appeal and user experience.
 
-Beautiful gradient-based UI with interactive elements
+Files Included
+index.html — Main HTML structure
+index.css — Styling and animations
+index.js — Script for fetching and displaying movie info
 
-Dynamic search with real-time movie information
+How to Run the Project Locally
+Clone this repository (or download the ZIP):
 
-Responsive and animated design for a smooth user experience
+git clone https://github.com/your-username/movie-search-app.git
+cd movie-search-app
 
-Fetches movie posters and key details using the OMDb API
+Open the app:
+Double-click on index.html to open it in your browser
+Or, use a local server (such as Live Server extension in VS Code)
 
-🔗 Tech Stack: HTML, CSS, JavaScript, OMDb API
+Example Searches
+Here are some movies you can try searching for:
+
+Inception
+Avengers
+Titanic
+
+API Used
+This project uses the OMDb API (Open Movie Database) to retrieve movie information.
+
+The demo API key used in the code is:
+
+apikey=96bbc71
+You can replace this key with your own OMDb API key if needed. Visit the OMDb website to register for a free key.
